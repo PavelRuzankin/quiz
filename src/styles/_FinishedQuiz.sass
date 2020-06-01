@@ -1,0 +1,27 @@
+@import _ResultAnswer
+@import _variables_mixins
+
+
+.FinishedQuiz
+    +border-set
+    display: flex
+    flex-direction: column
+    ul
+        list-style-type: none
+        margin: 0 
+        padding: 0
+        small 
+            margin-right: 10px
+    button
+        +button-set(100px, 30px)
+        
+    button:hover
+        background-color: rgba(255, 255, 255, 0.2)
+    span
+        font-size: 15px
+        margin-left: 10px
+
+.buttons
+    display: flex
+    button
+        margin-right: 30px

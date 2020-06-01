@@ -1,0 +1,22 @@
+@import _variables_mixins
+    
+.AnswerItem
+    color: white
+
+    margin-top: 10px
+    border: 2px solid white
+    padding: 0 10px
+    border-radius: 8px
+    cursor: pointer
+    transition: 0.3s
+
+.AnswerItem:hover
+    background-color: rgba(255, 255, 255, 0.2)
+
+.AnswerItem.success
+    background-color: $success 
+
+.AnswerItem.error
+    background-color: $error    
+
+    // Добавляй стили только через вложенности !!!!!!!!!!!

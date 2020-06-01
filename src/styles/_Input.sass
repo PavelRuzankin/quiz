@@ -1,0 +1,30 @@
+@import _variables_mixins
+    
+.Input
+    margin-bottom: 15px
+
+.Input 
+    label
+        margin-bottom: 3px
+        padding: 0px
+        display: block
+        font-weight: bold
+    input
+        display: block
+        box-sizing: border-box
+        border: 1px solid #bebebe
+        padding: 7px
+        margin: 0 0 5px
+        width: 100%
+        outline: none
+        transition: all 0.3s 
+    span
+        color: $error
+        font-size: 12px
+        font-weight: bold
+
+.Input.Invalid 
+    label
+        color: $error    
+    input 
+        border-color: $error       
